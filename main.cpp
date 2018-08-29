@@ -114,7 +114,7 @@ void printDirections(string start, string end, vector<NavSegment>& navSegments)
                 }
                 effectiveSegment.end = ns.m_geoSegment.end;
                 distSinceLastTurn += ns.m_distance;
-                totalDistance += ns.m_distance;
+                totalDistance += ns.m_distance; 
                 break;
             case NavSegment::TURN:
                 if (distSinceLastTurn > 0)
