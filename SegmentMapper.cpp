@@ -12,7 +12,7 @@ public:
     void init(const MapLoader& ml);
     vector<StreetSegment> getSegments(const myGeoCoord& gc) const;
 private:
-    MyMap<myGeoCoord, vector<StreetSegment>> m_segmentMapper; // will be a string of the coordinates
+    MyMap<myGeoCoord, vector<StreetSegment> > m_segmentMapper; // will be a string of the coordinates
 };
 
 SegmentMapperImpl::SegmentMapperImpl()

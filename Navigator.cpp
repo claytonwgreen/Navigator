@@ -17,7 +17,6 @@ private:
     SegmentMapper segMap;
     AttractionMapper attracMap;
     string getStreetName(myGeoCoord first, myGeoCoord second) const;
-    //string getDirection(const myGeoCoord first, const myGeoCoord second) const;
     bool nextIsTurn(myGeoCoord first, myGeoCoord second, myGeoCoord third) const;
     string getDirectionForTurn(myGeoCoord g1, myGeoCoord g2, myGeoCoord g3) const;
 };
