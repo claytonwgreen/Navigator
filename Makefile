@@ -1,7 +1,11 @@
 CXX = g++
 CXXFLAGS = -Wall -g
 
-main.o: 
+navigation: main.o 
+	$(CXX) $(CXXFLAGS) -o navigation main.o 
+
+main.o: main.cpp 
+
 
 Navigator.o:
 
