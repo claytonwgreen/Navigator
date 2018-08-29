@@ -5,7 +5,7 @@
 * Available commands in directory:
 ```bash 
 make 					// compile and link program
-make clean-objects		// remove object files
+make clean-objects			// remove object files
 make clean 				// remove object files and executable
 ```
 
