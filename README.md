@@ -61,4 +61,4 @@ make clean 				// remove object files and executable
 
 
 
-** This is a very crude explanation, so if confused, check out this link on [Diijkstra's Shortest Path Algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm), as this is the algorithm this program implements
+** This is a very crude explanation, so if confused, check out this link on [Diijkstra's Shortest Path Algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm), as this program implements a variation of this algorithm
